@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+/* Estilos del Header */
+.main-header {
+  background-color: #3366cc;
+  padding: 1rem 0;
+  color: #ffffff;
+}
+
+.main-header .navbar {
+  background: none;
+}
+
+.language-switch .enlace-idioma {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo-crc {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Menú de Navegación */
+.navbar-color-gris {
+  background-color: #444;
+}
+
+.navbar-color-gris .navbar-nav .nav-link {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.navbar-color-gris .navbar-nav .nav-link:hover {
+  color: #ddd;
+}
+
+/* Estilos del Contenido */
+main {
+  padding: 2rem 0;
+}
+
+main h2 {
+  color: #3366cc;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #444;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer .text-muted {
+  color: #cccccc;
+}
+
+.hf_footer {
+  background: #7a7778;
+  margin-top: 6rem;
+}
+
+/* Estilos de Modales */
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-header {
+  background-color: #3366cc;
+  color: #ffffff;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #444;
+  border: none;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #555;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .language-switch {
+    text-align: center;
+  }
+
+  .logo-crc {
+    max-width: 150px;
+  }
+}
