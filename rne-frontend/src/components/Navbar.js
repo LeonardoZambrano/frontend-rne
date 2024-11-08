@@ -1,3 +1,5 @@
+import React from "react";
+
 // Componente Navbar
 function Navbar() {
     return (
