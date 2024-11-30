@@ -1,7 +1,7 @@
 import React from "react";
 
 // Componente Modal
-function Modal({ showModal, closeModal, content }) {
+export const Modal = ({ showModal, closeModal, content }) => {
     if (!showModal) return null;
 
     return (
@@ -24,5 +24,3 @@ function Modal({ showModal, closeModal, content }) {
         </div>
     );
 }
-
-export default Modal;

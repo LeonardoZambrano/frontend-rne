@@ -1,6 +1,6 @@
 import React from "react";
 
-function TermsRow({ id, text, onClick, isCheckbox }) {
+export const TermsRow = ({ id, text, onClick, isCheckbox }) => {
     return (
         <tr>
             <td>
@@ -24,5 +24,3 @@ function TermsRow({ id, text, onClick, isCheckbox }) {
         </tr>
     );
 }
-
-export default TermsRow;

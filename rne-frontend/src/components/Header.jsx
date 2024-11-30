@@ -1,7 +1,7 @@
 import React from "react";
 
 // Componente Header
-function Header() {
+export const Header = () => {
     return (
         <header className="main-header">
             <div className="container text-center mt-3">
@@ -10,5 +10,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;
